@@ -26,11 +26,11 @@ function Navbar()
         }
     };
 
-    /*
+    
     useEffect(() =>{
         showButton();
     },[location.pathname]);
-    */
+    
 
     window.addEventListener('resize', showButton);
 

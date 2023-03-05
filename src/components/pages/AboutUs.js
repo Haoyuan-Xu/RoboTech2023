@@ -2,6 +2,8 @@ import React from "react";
 import '../../App.css'
 import './AboutUs.css'
 
+
+
 function AboutUs() {
     return (
       <>
@@ -16,7 +18,7 @@ function AboutUs() {
         <div className="row">
           <div className="column">
             <div className="card">
-              <img src={"/images/img-1.jpg"} alt="Haoyuan Xu" style={{width: '100%'}} />
+              <img src={"./images/img-1.jpg"} alt="Haoyuan Xu"/>
               <div className="container" >
                 <h2>Haoyuan Xu</h2>
                 <p className="title">Web Designer</p>
@@ -28,11 +30,11 @@ function AboutUs() {
   
           <div className="column">
             <div className="card">
-              <img src={"/images/img-2.jpg"} alt="Alice Zhang" style={{width: '100%'}} />
+              <img src={"/images/img-2.jpg"} alt="Alice Zhang" />
               <div className="container">
                 <h2>Alice Zhang</h2>
                 <p className="title">AI & Video</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>First-year computer science student</p>
                 <p>zhanga@ufl.edu</p>
               </div>
             </div>
@@ -40,12 +42,12 @@ function AboutUs() {
   
           <div className="column">
             <div className="card">
-              <img src={"/images/img-3.jpg"} alt="Jingyi Fu" style={{width: '100%'}} />
+              <img src={"/images/img-3.jpg"} alt="Jingyi Fu" />
               <div className="container">
                 <h2>Jingyi Fu</h2>
                 <p className="title">Documentation</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                <p>john@example.com</p>
+                <p>First Year Data Science student at UF</p>
+                <p>jingyifu@ufl.edu</p>
               </div>
             </div>
           </div>
@@ -53,12 +55,12 @@ function AboutUs() {
 
         <div className="column">
             <div className="card">
-              <img src={"/images/img-3.jpg"} alt="Yiwei Bian" style={{width: '100%'}} />
+              <img src={"/images/img-3.jpg"} alt="Yiwei Bian"/>
               <div className="container">
                 <h2>Yiwei Bian</h2>
                 <p className="title">3D Modeling</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                <p>john@example.com</p>
+                <p>Sophomore Computer Engineer at UF</p>
+                <p>yiweibian@ufl.edu</p>
               </div>
             </div>
           </div>

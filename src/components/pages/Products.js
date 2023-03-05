@@ -5,8 +5,9 @@ function Products() {
   return (
     <div className='product-container'>
         <h1 className='head-main'>Why choose WeCare?</h1>
-        <p className='head-second'>WeCare is a smart pill or medicine dispenser that has various functions.</p>
-        <h1>Features</h1>
+        <p className='intro'>WeCare is a smart pill or medicine dispenser that has various functions.</p>
+        <img className='img2' src='./images/PillDispensor.png' alt= ""/>
+        <h1 className='head-second'>Core Features</h1>
         <p  className='patient'>
             Patient-input: So, there comes a website, after the first meeting between 
             the patient and the doctor, and their accounts would be linked together. 
@@ -28,6 +29,16 @@ function Products() {
             Patients may also check the number of days the medications so that they may 
             know to schedule a time to go to the hospital
         </p>
+        <h1 className='head-second'>Highlights</h1>
+        <div className='highlight-container'>
+            <ul>
+                <li className='highlight-list'>1. The patients do not need to regularly go to the hospital for some “slight”/ “small” problems anymore, their life routine can remain the same. Appointment, registration, and lining up require a huge amount of time. This time can be saved using PROJECT.</li>
+                <li className='highlight-list'>2.  The PROJECT makes it possible to not depend on real-time communication.</li>
+                <li className='highlight-list'>3. This PROJECT can benefit patients who don’t like going to the hospital or can’t express themselves well in front of the doctor</li>
+            </ul>
+        </div>
+        <h1 className='head-second'>Dispenser Mechanism</h1>
+        <img className='img2' src='./images/Dispenser2.png' alt="" />
     </div>
   )
 }
