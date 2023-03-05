@@ -30,7 +30,7 @@ function AboutUs() {
   
           <div className="column">
             <div className="card">
-              <img src={"/images/img-2.jpg"} alt="Alice Zhang" />
+              <img src={"/images/Alice.jpg"} alt="Alice Zhang" />
               <div className="container">
                 <h2>Alice Zhang</h2>
                 <p className="title">AI & Video</p>
@@ -42,7 +42,7 @@ function AboutUs() {
   
           <div className="column">
             <div className="card">
-              <img src={"/images/img-3.jpg"} alt="Jingyi Fu" />
+              <img src={"/images/Jingyi.jpg"} alt="Jingyi Fu" />
               <div className="container">
                 <h2>Jingyi Fu</h2>
                 <p className="title">Documentation</p>
@@ -55,7 +55,7 @@ function AboutUs() {
 
         <div className="column">
             <div className="card">
-              <img src={"/images/img-3.jpg"} alt="Yiwei Bian"/>
+              <img src={"/images/Yiwei.jpg"} alt="Yiwei Bian"/>
               <div className="container">
                 <h2>Yiwei Bian</h2>
                 <p className="title">3D Modeling</p>
