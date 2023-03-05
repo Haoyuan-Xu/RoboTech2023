@@ -1,0 +1,164 @@
+{
+    "intents": [
+
+        {
+            "tag": "sad",
+            "patterns": [
+                "I feel sad.",
+                ":(",
+                "i feel so angry",
+                "I am stressed!"
+            ],
+            "responses": [
+                "Would you like to elaborate? I would be happy to listen.",
+                "I'm sorry to hear that. Would you prefer I lend an ear or provide you resources?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "happy",
+            "patterns": [
+                "I am so happy!",
+                "today is a beautiful day",
+                "i have some exciting news!",
+                "so good"
+            ],
+            "responses": [
+                "I'm glad to hear! Would you like to tell me about it?",
+                "That's great news! Want to celebrate?",
+                "Confetti coming your way!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "yes to elaborate",
+            "patterns": [
+                "yes",
+                "I'd like to elaborate.",
+                "I need someone to tell!",
+                "ear",
+                "yeah",
+                "mhm",
+                "okay"
+            ],
+            "responses": [
+                "Okay, go ahead.",
+                "I'm all ears.",
+                "You can start when you're ready!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "no to elaborate",
+            "patterns": [
+                "no",
+                "No thank you.",
+                "I don't want to elaborate"
+            ],
+            "responses": [
+                "That's fine. Is there anything else I can do for you?",
+                "As you wish."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "resources",
+            "patterns": [
+                "I would like resources.",
+                "resources please"
+            ],
+            "responses": [
+                "Of course!",
+                "*links to come soon*"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "exit",
+            "patterns": [
+                "i'm done",
+                "Thank you!",
+                "thank you for your help.",
+                "See you later!",
+                "bye",
+                "Bye!"
+            ],
+            "responses": [
+                "It was great chatting with you! I hope to see you soon!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "miscellaneous",
+            "patterns": [
+                "dqoewvbip2ne08r",
+                "beebeeboop baaa",
+                "lor0fnc0w if9-3ews  0v4wrp",
+                "blah blah"
+            ],
+            "responses": [
+                "I'm sorry, I don't understand.",
+                "Try wording that a little differently. I'm trying my best to understand!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "urgent",
+            "patterns": [
+                "urgent",
+                "Urgent"
+            ],
+            "responses": [
+                "I understand. Can you share a little bit more about your problem or problems? We will work to get you connected with a doctor as soon as possible."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skip",
+            "patterns": [
+                "",
+                "skip",
+                "prefer not to say"
+            ],
+            "responses": [
+                "That's fine. Anything else I can do for you?",
+                "No worries. Is there anything else I can help you with?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "Hello!",
+                "nice to talk to you"
+            ],
+            "responses": [
+                "Hi there! How can I help you?",
+                "Nice to see you!",
+                "Good day."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
