@@ -18,7 +18,7 @@ function AboutUs() {
         <div className="row">
           <div className="column">
             <div className="card">
-              <img src={"./images/img-1.jpg"} alt="Haoyuan Xu"/>
+              <img src={"./images/alex.jpg"} alt="Haoyuan Xu"/>
               <div className="container" >
                 <h2>Haoyuan Xu</h2>
                 <p className="title">Web Designer</p>
