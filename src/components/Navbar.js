@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTruckFast, faTimes, faBars, faBookMedical, faBook} from '@fortawesome/free-solid-svg-icons';
+import { faTimes, faBars, faPills} from '@fortawesome/free-solid-svg-icons';
 import { Button } from './Button.js';
 import './Button.css';
 import './Navbar.css';
@@ -26,9 +26,11 @@ function Navbar()
         }
     };
 
+    /*
     useEffect(() =>{
         showButton();
     },[location.pathname]);
+    */
 
     window.addEventListener('resize', showButton);
 
@@ -37,7 +39,7 @@ function Navbar()
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        WeCare &nbsp; <FontAwesomeIcon icon={faBookMedical} />
+                        WeCare &nbsp; <FontAwesomeIcon icon={faPills} />
                         {/*&nbsp works as space*/}
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -50,16 +52,22 @@ function Navbar()
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/Service' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/AboutUs' className='nav-links' onClick={closeMobileMenu}>
                             About Us
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/Products' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/Support' className='nav-links' onClick={closeMobileMenu}>
                                 Contact/Support
                             </Link>
                         </li>
+                        <li className='nav-item'>
+                            <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                                Product
+                            </Link>
+                        </li>
                     </ul>
+                    {button && <Button buttonStyle='btn--outline'>Product</Button>}
                 </div>
             </nav>
         </>
